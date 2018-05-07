@@ -28,6 +28,6 @@ const book = {
     }
 }
 
-const {name:publisherName = 'Self-published'} = book.publisher;
+const {name: publisherName = 'Self-published'} = book.publisher;
 
 console.log(publisherName);
